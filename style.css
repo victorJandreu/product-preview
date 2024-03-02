@@ -131,7 +131,13 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px
+    gap: 10px;
+    transition: background-color 0.5s ease;
+}
+
+button:hover{
+    background-color: var(--dark-blue);
+    cursor: pointer;
 }
 
 
